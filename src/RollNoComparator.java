@@ -15,9 +15,14 @@ Pseudocode:
 public class RollNoComparator implements Comparator<Student>
 {
     @Override
-    // Safety check for overriding compare method
+
+    // Safety check to ensure compare() is correctly overridden
+
     public int compare(Student student1, Student student2)
     {
+
+        // Compare students using roll number values
+        
         if (student1.rollno > student2.rollno)
         {
             return 1;
