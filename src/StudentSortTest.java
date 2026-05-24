@@ -30,8 +30,8 @@ public class StudentSortTest
         studentList.add(new Student(101, "Apollo", "Dallas"));
         studentList.add(new Student(109, "Nyx", "Phoenix"));
         studentList.add(new Student(103, "Orion", "Seattle"));
-        studentList.add(new Student(107, "Kratos", "Chicago"));
-        studentList.add(new Student(102, "Selene", "Boston"));
+        studentList.add(new Student(107, "Zeus", "Chicago"));
+        studentList.add(new Student(102, "Hades", "Boston"));
         studentList.add(new Student(110, "Atlas", "Miami"));
         studentList.add(new Student(104, "Freya", "Atlanta"));
         studentList.add(new Student(108, "Artemis", "Houston"));
