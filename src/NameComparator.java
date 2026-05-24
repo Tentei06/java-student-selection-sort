@@ -15,7 +15,9 @@ Pseudocode:
 public class NameComparator implements Comparator<Student>
 {
     @Override
-    // Safety check for overriding compare method
+    
+    // Safety check to ensure compare() is correctly overridden
+
     public int compare(Student student1, Student student2)
     {
         return student1.name.compareTo(student2.name);
