@@ -15,11 +15,12 @@ Pseudocode:
 public class NameComparator implements Comparator<Student>
 {
     @Override
-    
+
     // Safety check to ensure compare() is correctly overridden
 
     public int compare(Student student1, Student student2)
     {
+        // Compare students alphhabetically by name
         return student1.name.compareTo(student2.name);
     }
 }
