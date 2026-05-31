@@ -69,5 +69,18 @@ public class StudentSortTest
         {
             System.out.println(student);
         }
+    
+        System.out.println("\nSorted By Address:");
+
+        SelectionSort.selectionSort
+        (
+            studentList,
+            new AddressComparator()
+        );
+
+        for (Student student : studentList)
+        {
+             System.out.println(student);
+        }
     }
 }
